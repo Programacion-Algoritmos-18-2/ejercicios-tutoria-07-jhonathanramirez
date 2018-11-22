@@ -30,12 +30,13 @@ public class EjemploPolimorfismo3 {
 
         // ENTRENAMIENTO
         System.out.println("\nEntrenamiento: Todos los integrantes tienen su función en un entrenamiento (Especialización)");
-       /* for (PersonaEquipo integrante : integrantes) {
-            System.out.print(integrante.getNombre() + " " + integrante.getApellidos() + " -> ");
+        for (PersonaEquipo integrante : integrantes) {
+             integrante.entrenamiento();
+       //     System.out.print(integrante.getNombre() + " " + integrante.getApellidos() + " -> ");
         
-            */
-       for (int i = 0; i < integrantes.size(); i++){
-       integrantes.get(i).entrenamiento();
+            
+       /*for (int i = 0; i < integrantes.size(); i++){*/
+       
         }
 
         

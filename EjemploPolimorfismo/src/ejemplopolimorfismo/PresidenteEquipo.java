@@ -17,6 +17,6 @@ public class PresidenteEquipo extends PersonaEquipo{
     
     @Override
     public void entrenamiento(){
-        System.out.printf("%d %s %s Presidente: supervisa a los futbolistas y al entrenador",super.getId(),super.getNombre(),super.getApellidos()); 
+        System.out.printf("%s %s Presidente: supervisa a los futbolistas y al entrenador", super.getNombre(),super.getApellidos()); 
     }
 }

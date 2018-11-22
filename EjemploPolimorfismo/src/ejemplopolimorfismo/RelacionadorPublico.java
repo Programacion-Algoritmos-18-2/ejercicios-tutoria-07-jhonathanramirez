@@ -17,6 +17,6 @@ public class RelacionadorPublico extends PersonaEquipo {
     
     @Override
     public void entrenamiento(){
-        System.out.printf("%d %s %s Relacionador Publico (da a conocer el entrenamiento",super.getId(),super.getNombre(),super.getApellidos());
+        System.out.printf("%s %s Relacionador Publico (da a conocer el entrenamiento", super.getNombre(),super.getApellidos());
     }
 }
